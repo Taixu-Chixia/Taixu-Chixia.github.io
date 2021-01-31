@@ -3,11 +3,11 @@
   <title>易的个人博客</title>
   
   
-  <link href="http://example.com/atom.xml" rel="self"/>
+  <link href="https://taixuchixia.gitee.io/atom.xml" rel="self"/>
   
-  <link href="http://example.com/"/>
+  <link href="https://taixuchixia.gitee.io/"/>
   <updated>2021-01-28T09:29:59.824Z</updated>
-  <id>http://example.com/</id>
+  <id>https://taixuchixia.gitee.io/</id>
   
   <author>
     <name>teriri#5742</name>
@@ -18,8 +18,8 @@
   
   <entry>
     <title>很快出现的第三篇博客：部署问题补充:</title>
-    <link href="http://example.com/2021/01/27/%E5%BE%88%E5%BF%AB%E5%87%BA%E7%8E%B0%E7%9A%84%E7%AC%AC%E4%B8%89%E7%AF%87%E5%8D%9A%E5%AE%A2%EF%BC%9A%E9%83%A8%E7%BD%B2%E9%97%AE%E9%A2%98%E8%A1%A5%E5%85%85/"/>
-    <id>http://example.com/2021/01/27/%E5%BE%88%E5%BF%AB%E5%87%BA%E7%8E%B0%E7%9A%84%E7%AC%AC%E4%B8%89%E7%AF%87%E5%8D%9A%E5%AE%A2%EF%BC%9A%E9%83%A8%E7%BD%B2%E9%97%AE%E9%A2%98%E8%A1%A5%E5%85%85/</id>
+    <link href="https://taixuchixia.gitee.io/posts/9dcdf714.html"/>
+    <id>https://taixuchixia.gitee.io/posts/9dcdf714.html</id>
     <published>2021-01-27T07:40:31.000Z</published>
     <updated>2021-01-28T09:29:59.824Z</updated>
     
@@ -35,25 +35,25 @@
     
     
     
-    <category term="hexo" scheme="http://example.com/categories/hexo/"/>
+    <category term="hexo" scheme="https://taixuchixia.gitee.io/categories/hexo/"/>
     
-    <category term="wrong" scheme="http://example.com/categories/hexo/wrong/"/>
+    <category term="wrong" scheme="https://taixuchixia.gitee.io/categories/hexo/wrong/"/>
     
     
-    <category term="bug" scheme="http://example.com/tags/bug/"/>
+    <category term="bug" scheme="https://taixuchixia.gitee.io/tags/bug/"/>
     
-    <category term="hexo" scheme="http://example.com/tags/hexo/"/>
+    <category term="hexo" scheme="https://taixuchixia.gitee.io/tags/hexo/"/>
     
   </entry>
   
   <entry>
     <title>我的第二篇博客：关于博客的部署过程中的一些问题汇总</title>
-    <link href="http://example.com/2021/01/27/%E6%88%91%E7%9A%84%E7%AC%AC%E4%BA%8C%E7%AF%87%E5%8D%9A%E5%AE%A2%EF%BC%9A%E5%85%B3%E4%BA%8E%E5%8D%9A%E5%AE%A2%E7%9A%84%E9%83%A8%E7%BD%B2%E8%BF%87%E7%A8%8B%E4%B8%AD%E7%9A%84%E4%B8%80%E4%BA%9B%E9%97%AE%E9%A2%98%E6%B1%87%E6%80%BB/"/>
-    <id>http://example.com/2021/01/27/%E6%88%91%E7%9A%84%E7%AC%AC%E4%BA%8C%E7%AF%87%E5%8D%9A%E5%AE%A2%EF%BC%9A%E5%85%B3%E4%BA%8E%E5%8D%9A%E5%AE%A2%E7%9A%84%E9%83%A8%E7%BD%B2%E8%BF%87%E7%A8%8B%E4%B8%AD%E7%9A%84%E4%B8%80%E4%BA%9B%E9%97%AE%E9%A2%98%E6%B1%87%E6%80%BB/</id>
+    <link href="https://taixuchixia.gitee.io/posts/79a7bad9.html"/>
+    <id>https://taixuchixia.gitee.io/posts/79a7bad9.html</id>
     <published>2021-01-27T07:11:59.000Z</published>
     <updated>2021-01-28T09:31:19.449Z</updated>
     
-    <content type="html"><![CDATA[<p>我将我的博客部署在了gitee上。能看到这里，不出意外都是用的gitee连接<br>以下问题都发生在我的Windows操作系统下  其他系统出了问题的话看个思路就行，解决方法大同小异</p><p>部署问题1<br>在gitee上新建一个仓库(路径名和用户名相同就不用重复了)<br>新建后，必须完成仓库的创建过程再进行pull操作(hexo d)</p><p>部署问题2<br>修改_config.yml 文件失败<br>这里一定要小心，复制粘贴后要注意空格，缩进等问题。最好自己手动敲一遍。</p><p>部署问题3<br>*** Please tell me who you are<br>你在命令行中执行<br>git config –global user.email “你的邮箱”<br>git config –global user.name “你的名字”<br>能解决这个问题<br>这个问题可以看到如果不执行这两行<br>会报错如下<br>Run</p><p>  git config –global user.email “<a href="mailto:&#121;&#111;&#117;&#x40;&#x65;&#x78;&#x61;&#109;&#112;&#108;&#x65;&#x2e;&#99;&#x6f;&#x6d;">&#121;&#111;&#117;&#x40;&#x65;&#x78;&#x61;&#109;&#112;&#108;&#x65;&#x2e;&#99;&#x6f;&#x6d;</a>“<br>  git config –global user.name “Your Name”</p><p>to set your account’s default identity.<br>Omit –global to set the identity only in this repository.</p><p>fatal: unable to auto-detect email address (got ‘xxx.(none)’)</p><p>部署问题4<br>第一次接触这方面的同学<br>可能需要配置自己计算机的SSH公钥</p><p>ssh-keygen -t rsa -C “<a href="mailto:&#x78;&#120;&#x78;&#120;&#120;&#x40;&#120;&#x78;&#120;&#x78;&#120;&#46;&#99;&#x6f;&#x6d;">&#x78;&#120;&#x78;&#120;&#120;&#x40;&#120;&#x78;&#120;&#x78;&#120;&#46;&#99;&#x6f;&#x6d;</a>“<br>在命令行输入这样格式的命令引号里是邮箱，引号前面有一个空格</p><p>第一次回车确认  第二次确认  第三次输入密码  第四次确认密码</p><p>然后在C:\Users\你的用户名.ssh\id_rsa.pub这个文件里找到你的SSH公钥<br>用记事本或者VSCode打开<br>将文件内的内容复制到gitee的部署公钥设置里(进入个人设置页面—》SSH 公钥添加)<br>不是在库里添加哦，是在个人设置里添加。</p><p>部署问题5<br>密码错误问题<br>remote: Incorrect username or password ( access token )<br>打开电脑的控制面板–&gt;用户账户–&gt;管理Windows凭据<br>找到普通凭据中自己的账号信息，选择编辑，填入正确的用户名和密码，最后点击保存即可。<br>这里的用户名指的是你登录gitee用的用户名和密码</p><p>部署问题6<br>部署后没有正常显示<br>我的是在库设置里更新一下就好了<br>应该是在gitee pages服务里</p>]]></content>
+    <content type="html"><![CDATA[<p>我将我的博客部署在了gitee上。能看到这里，不出意外都是用的gitee连接<br>以下问题都发生在我的Windows操作系统下  其他系统出了问题的话看个思路就行，解决方法大同小异</p><p>部署问题1<br>在gitee上新建一个仓库(路径名和用户名相同就不用重复了)<br>新建后，必须完成仓库的创建过程再进行pull操作(hexo d)</p><p>部署问题2<br>修改_config.yml 文件失败<br>这里一定要小心，复制粘贴后要注意空格，缩进等问题。最好自己手动敲一遍。</p><p>部署问题3<br>*** Please tell me who you are<br>你在命令行中执行<br>git config –global user.email “你的邮箱”<br>git config –global user.name “你的名字”<br>能解决这个问题<br>这个问题可以看到如果不执行这两行<br>会报错如下<br>Run</p><p>  git config –global user.email “<a href="mailto:&#x79;&#x6f;&#117;&#64;&#x65;&#120;&#x61;&#x6d;&#x70;&#108;&#x65;&#x2e;&#99;&#x6f;&#109;">&#x79;&#x6f;&#117;&#64;&#x65;&#120;&#x61;&#x6d;&#x70;&#108;&#x65;&#x2e;&#99;&#x6f;&#109;</a>“<br>  git config –global user.name “Your Name”</p><p>to set your account’s default identity.<br>Omit –global to set the identity only in this repository.</p><p>fatal: unable to auto-detect email address (got ‘xxx.(none)’)</p><p>部署问题4<br>第一次接触这方面的同学<br>可能需要配置自己计算机的SSH公钥</p><p>ssh-keygen -t rsa -C “<a href="mailto:&#120;&#x78;&#x78;&#120;&#120;&#x40;&#120;&#x78;&#120;&#120;&#120;&#46;&#99;&#111;&#x6d;">&#120;&#x78;&#x78;&#120;&#120;&#x40;&#120;&#x78;&#120;&#120;&#120;&#46;&#99;&#111;&#x6d;</a>“<br>在命令行输入这样格式的命令引号里是邮箱，引号前面有一个空格</p><p>第一次回车确认  第二次确认  第三次输入密码  第四次确认密码</p><p>然后在C:\Users\你的用户名.ssh\id_rsa.pub这个文件里找到你的SSH公钥<br>用记事本或者VSCode打开<br>将文件内的内容复制到gitee的部署公钥设置里(进入个人设置页面—》SSH 公钥添加)<br>不是在库里添加哦，是在个人设置里添加。</p><p>部署问题5<br>密码错误问题<br>remote: Incorrect username or password ( access token )<br>打开电脑的控制面板–&gt;用户账户–&gt;管理Windows凭据<br>找到普通凭据中自己的账号信息，选择编辑，填入正确的用户名和密码，最后点击保存即可。<br>这里的用户名指的是你登录gitee用的用户名和密码</p><p>部署问题6<br>部署后没有正常显示<br>我的是在库设置里更新一下就好了<br>应该是在gitee pages服务里</p>]]></content>
     
     
       
@@ -64,25 +64,25 @@
     
     
     
-    <category term="hexo" scheme="http://example.com/categories/hexo/"/>
+    <category term="hexo" scheme="https://taixuchixia.gitee.io/categories/hexo/"/>
     
-    <category term="teach" scheme="http://example.com/categories/teach/"/>
+    <category term="teach" scheme="https://taixuchixia.gitee.io/categories/teach/"/>
     
-    <category term="wrong" scheme="http://example.com/categories/teach/wrong/"/>
+    <category term="wrong" scheme="https://taixuchixia.gitee.io/categories/teach/wrong/"/>
     
     
-    <category term="bug" scheme="http://example.com/tags/bug/"/>
+    <category term="bug" scheme="https://taixuchixia.gitee.io/tags/bug/"/>
     
-    <category term="hexo" scheme="http://example.com/tags/hexo/"/>
+    <category term="hexo" scheme="https://taixuchixia.gitee.io/tags/hexo/"/>
     
-    <category term="teach" scheme="http://example.com/tags/teach/"/>
+    <category term="teach" scheme="https://taixuchixia.gitee.io/tags/teach/"/>
     
   </entry>
   
   <entry>
     <title>我的第一篇文章</title>
-    <link href="http://example.com/2021/01/26/%E6%88%91%E7%9A%84%E7%AC%AC%E4%B8%80%E7%AF%87%E6%96%87%E7%AB%A0/"/>
-    <id>http://example.com/2021/01/26/%E6%88%91%E7%9A%84%E7%AC%AC%E4%B8%80%E7%AF%87%E6%96%87%E7%AB%A0/</id>
+    <link href="https://taixuchixia.gitee.io/posts/7a776471.html"/>
+    <id>https://taixuchixia.gitee.io/posts/7a776471.html</id>
     <published>2021-01-26T02:11:24.000Z</published>
     <updated>2021-01-28T09:31:52.407Z</updated>
     
@@ -98,21 +98,21 @@
     
     
     
-    <category term="hexo" scheme="http://example.com/categories/hexo/"/>
+    <category term="hexo" scheme="https://taixuchixia.gitee.io/categories/hexo/"/>
     
-    <category term="teach" scheme="http://example.com/categories/hexo/teach/"/>
+    <category term="teach" scheme="https://taixuchixia.gitee.io/categories/hexo/teach/"/>
     
     
-    <category term="hexo" scheme="http://example.com/tags/hexo/"/>
+    <category term="hexo" scheme="https://taixuchixia.gitee.io/tags/hexo/"/>
     
-    <category term="teach" scheme="http://example.com/tags/teach/"/>
+    <category term="teach" scheme="https://taixuchixia.gitee.io/tags/teach/"/>
     
   </entry>
   
   <entry>
     <title>Hello World</title>
-    <link href="http://example.com/2021/01/26/hello-world/"/>
-    <id>http://example.com/2021/01/26/hello-world/</id>
+    <link href="https://taixuchixia.gitee.io/posts/4a17b156.html"/>
+    <id>https://taixuchixia.gitee.io/posts/4a17b156.html</id>
     <published>2021-01-26T01:55:19.031Z</published>
     <updated>2021-01-26T01:55:19.031Z</updated>
     
