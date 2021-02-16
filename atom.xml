@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="/"/>
-  <updated>2021-02-10T14:22:05.137Z</updated>
+  <updated>2021-02-16T13:57:30.272Z</updated>
   <id>/</id>
   
   <author>
@@ -17,11 +17,39 @@
   <generator uri="http://hexo.io/">Hexo</generator>
   
   <entry>
+    <title>算了，再写一篇指南吧</title>
+    <link href="/posts/44743.html"/>
+    <id>/posts/44743.html</id>
+    <published>2021-02-16T13:31:12.000Z</published>
+    <updated>2021-02-16T13:57:30.272Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;p&gt;这是这个网站的指南，上一篇指南在最下面了。。&lt;br&gt;在分类杂谈里有&lt;/p&gt;
+&lt;p&gt;右上角有个不怎么起眼的搜索按钮，里面的分类和标签只显示了五个&lt;br&gt;但是不用担心我在归档（分类）和清单(标签)里分好类了，鼠标移动到菜单相应位置就可以看到。&lt;/p&gt;
+&lt;p&gt;点开文章然后就能找到
+        
+      
+    
+    </summary>
+    
+      <category term="杂谈" scheme="/categories/%E6%9D%82%E8%B0%88/"/>
+    
+    
+      <category term="杂谈" scheme="/tags/%E6%9D%82%E8%B0%88/"/>
+    
+  </entry>
+  
+  <entry>
     <title>帅</title>
-    <link href="/2021/02/10/%E5%B8%85/"/>
-    <id>/2021/02/10/帅/</id>
+    <link href="/posts/e1a69846.html"/>
+    <id>/posts/e1a69846.html</id>
     <published>2021-02-10T14:13:36.000Z</published>
-    <updated>2021-02-10T14:22:05.137Z</updated>
+    <updated>2021-02-16T13:48:29.821Z</updated>
     
     <summary type="html">
     
@@ -45,10 +73,10 @@
   
   <entry>
     <title>整理一遍后的感想</title>
-    <link href="/2021/02/10/%E6%95%B4%E7%90%86%E4%B8%80%E9%81%8D%E5%90%8E%E7%9A%84%E6%84%9F%E6%83%B3/"/>
-    <id>/2021/02/10/整理一遍后的感想/</id>
+    <link href="/posts/8a1da904.html"/>
+    <id>/posts/8a1da904.html</id>
     <published>2021-02-10T13:54:21.000Z</published>
-    <updated>2021-02-10T14:22:05.146Z</updated>
+    <updated>2021-02-16T13:48:38.522Z</updated>
     
     <summary type="html">
     
@@ -72,10 +100,10 @@
   
   <entry>
     <title>基本功</title>
-    <link href="/2021/02/10/%E5%9F%BA%E6%9C%AC%E5%8A%9F/"/>
-    <id>/2021/02/10/基本功/</id>
+    <link href="/posts/39ae1ed5.html"/>
+    <id>/posts/39ae1ed5.html</id>
     <published>2021-02-10T13:17:58.000Z</published>
-    <updated>2021-02-10T14:22:05.136Z</updated>
+    <updated>2021-02-16T13:48:16.544Z</updated>
     
     <summary type="html">
     
@@ -98,10 +126,10 @@
   
   <entry>
     <title>格斗</title>
-    <link href="/2021/02/10/%E6%A0%BC%E6%96%97/"/>
-    <id>/2021/02/10/格斗/</id>
+    <link href="/posts/b243b0e1.html"/>
+    <id>/posts/b243b0e1.html</id>
     <published>2021-02-10T13:17:21.000Z</published>
-    <updated>2021-02-10T14:25:47.279Z</updated>
+    <updated>2021-02-16T13:48:06.114Z</updated>
     
     <summary type="html">
     
@@ -125,10 +153,10 @@
   
   <entry>
     <title>拳类</title>
-    <link href="/2021/02/10/%E6%8B%B3%E7%B1%BB/"/>
-    <id>/2021/02/10/拳类/</id>
+    <link href="/posts/b5ee0a13.html"/>
+    <id>/posts/b5ee0a13.html</id>
     <published>2021-02-10T13:17:11.000Z</published>
-    <updated>2021-02-10T14:22:05.133Z</updated>
+    <updated>2021-02-16T13:48:26.873Z</updated>
     
     <summary type="html">
     
@@ -155,10 +183,10 @@
   
   <entry>
     <title>棍</title>
-    <link href="/2021/02/09/%E6%A3%8D/"/>
-    <id>/2021/02/09/棍/</id>
+    <link href="/posts/440d65b7.html"/>
+    <id>/posts/440d65b7.html</id>
     <published>2021-02-09T02:24:23.000Z</published>
-    <updated>2021-02-14T13:37:16.117Z</updated>
+    <updated>2021-02-16T13:48:13.497Z</updated>
     
     <summary type="html">
     
@@ -183,10 +211,10 @@
   
   <entry>
     <title>枪</title>
-    <link href="/2021/02/09/%E6%9E%AA/"/>
-    <id>/2021/02/09/枪/</id>
+    <link href="/posts/8bef9862.html"/>
+    <id>/posts/8bef9862.html</id>
     <published>2021-02-09T02:09:24.000Z</published>
-    <updated>2021-02-10T14:23:50.646Z</updated>
+    <updated>2021-02-16T13:48:23.749Z</updated>
     
     <summary type="html">
     
@@ -211,10 +239,10 @@
   
   <entry>
     <title>刀法</title>
-    <link href="/2021/02/08/%E5%88%80%E6%B3%95/"/>
-    <id>/2021/02/08/刀法/</id>
+    <link href="/posts/79665058.html"/>
+    <id>/posts/79665058.html</id>
     <published>2021-02-08T13:13:44.000Z</published>
-    <updated>2021-02-14T13:25:42.839Z</updated>
+    <updated>2021-02-16T13:47:59.445Z</updated>
     
     <summary type="html">
     
@@ -232,18 +260,18 @@
       <category term="短兵" scheme="/categories/%E7%9F%AD%E5%85%B5/"/>
     
     
-      <category term="刀" scheme="/tags/%E5%88%80/"/>
-    
       <category term="基础" scheme="/tags/%E5%9F%BA%E7%A1%80/"/>
+    
+      <category term="刀" scheme="/tags/%E5%88%80/"/>
     
   </entry>
   
   <entry>
     <title>剑术</title>
-    <link href="/2021/02/08/%E5%89%91%E6%9C%AF/"/>
-    <id>/2021/02/08/剑术/</id>
+    <link href="/posts/78b3a8cd.html"/>
+    <id>/posts/78b3a8cd.html</id>
     <published>2021-02-08T13:13:27.000Z</published>
-    <updated>2021-02-10T14:24:01.604Z</updated>
+    <updated>2021-02-16T13:48:20.777Z</updated>
     
     <summary type="html">
     
@@ -261,18 +289,18 @@
       <category term="短兵" scheme="/categories/%E7%9F%AD%E5%85%B5/"/>
     
     
-      <category term="基础" scheme="/tags/%E5%9F%BA%E7%A1%80/"/>
-    
       <category term="剑" scheme="/tags/%E5%89%91/"/>
+    
+      <category term="基础" scheme="/tags/%E5%9F%BA%E7%A1%80/"/>
     
   </entry>
   
   <entry>
     <title>关于这个博客网站的使用指南</title>
-    <link href="/2021/02/01/%E5%85%B3%E4%BA%8E%E8%BF%99%E4%B8%AA%E5%8D%9A%E5%AE%A2%E7%BD%91%E7%AB%99%E7%9A%84%E4%BD%BF%E7%94%A8%E6%8C%87%E5%8D%97/"/>
-    <id>/2021/02/01/关于这个博客网站的使用指南/</id>
+    <link href="/posts/c8c8da64.html"/>
+    <id>/posts/c8c8da64.html</id>
     <published>2021-02-01T07:11:05.000Z</published>
-    <updated>2021-02-15T15:01:26.432Z</updated>
+    <updated>2021-02-16T13:51:12.120Z</updated>
     
     <summary type="html">
     
@@ -290,26 +318,6 @@
     
     
       <category term="杂谈" scheme="/tags/%E6%9D%82%E8%B0%88/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>Hexo-Theme-Sakura</title>
-    <link href="/2018/12/12/Hexo-Theme-Sakura/"/>
-    <id>/2018/12/12/Hexo-Theme-Sakura/</id>
-    <published>2018-12-12T14:16:01.000Z</published>
-    <updated>2021-02-14T14:18:43.965Z</updated>
-    
-    <summary type="html">
-    
-      hexo-sakura主题使用教程
-    
-    </summary>
-    
-      <category term="技术" scheme="/categories/%E6%8A%80%E6%9C%AF/"/>
-    
-    
-      <category term="web" scheme="/tags/web/"/>
     
   </entry>
   
